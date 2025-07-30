@@ -55,6 +55,7 @@
 		1804CEC42E246EF300D80D2E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		1831B6132E36E1050000228C /* RxNewsViewModelAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxNewsViewModelAdapter.swift; sourceTree = "<group>"; };
 		1831B6172E36E2050000228C /* LocalizedErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedErrorWrapper.swift; sourceTree = "<group>"; };
+		1867ADD12E3ACFE100929981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187124DF2E2BB86600549E4C /* FavouriteNewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteNewsListView.swift; sourceTree = "<group>"; };
 		187124E12E2BBC7900549E4C /* FavouriteNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteNewsViewModel.swift; sourceTree = "<group>"; };
 		187124E32E2BC05F00549E4C /* ArticleEntity+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleEntity+Mapping.swift"; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 		188C488A2E22FE700084A52A = {
 			isa = PBXGroup;
 			children = (
+				1867ADD12E3ACFE100929981 /* Info.plist */,
 				18B8760B2E3A79B600A1045C /* Secrets.xcconfig */,
 				18B876092E3A798700A1045C /* .gitignore */,
 				189657082E255657003347E1 /* ArticleEntity+CoreDataClass.swift */,
@@ -411,6 +413,7 @@
 /* Begin XCBuildConfiguration section */
 		188C48B52E22FE710084A52A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B8760B2E3A79B600A1045C /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -474,6 +477,7 @@
 		};
 		188C48B62E22FE710084A52A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B8760B2E3A79B600A1045C /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -530,6 +534,7 @@
 		};
 		188C48B82E22FE710084A52A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B8760B2E3A79B600A1045C /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -537,7 +542,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"news_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +564,7 @@
 		};
 		188C48B92E22FE710084A52A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B8760B2E3A79B600A1045C /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -565,7 +572,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"news_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
